@@ -38,6 +38,7 @@ func Oauth2ResourceMiddleware(scopes []string, grantTypes []string) gin.HandlerF
 			})
 			return
 		}
+
 		c.Set("accessToken", accessToken)
 		c.Next()
 	}
