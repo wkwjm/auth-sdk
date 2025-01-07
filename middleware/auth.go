@@ -70,7 +70,7 @@ func AuthMiddleware(environment, url string) gin.HandlerFunc {
 	}
 }
 
-// 模块的函数签名，实际中需要按照与认证服务器交互的逻辑实现该函数
+// 认证服务器交互的逻辑
 func authenticate(url, headerName, token string) (map[string]interface{}, error) {
 	result := make(map[string]interface{})
 	result["authenticate"] = false
