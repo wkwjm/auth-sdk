@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"github.com/MicahParks/keyfunc/v3"
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/houg/go-oauth2-resource/pkg/netutil"
+	"github.com/wkwjm/auth-sdk/pkg/netutil"
 	"io"
 	"log"
 )

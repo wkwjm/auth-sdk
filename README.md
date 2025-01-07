@@ -1,4 +1,4 @@
-# go-oauth2-resource
+# auth-sdk
 
 1、下载
 ```

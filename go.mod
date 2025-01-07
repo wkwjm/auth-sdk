@@ -1,4 +1,4 @@
-module github.com/houg/go-oauth2-resource
+module github.com/wkwjm/auth-sdk
 
 go 1.23.0
 

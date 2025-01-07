@@ -1,7 +1,7 @@
 package resource
 
 import (
-	"github.com/houg/go-oauth2-resource/errors"
+	"github.com/wkwjm/auth-sdk/errors"
 	"net/http"
 	"strings"
 )

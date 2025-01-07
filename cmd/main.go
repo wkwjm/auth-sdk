@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/houg/go-oauth2-resource/middleware"
+	"github.com/wkwjm/auth-sdk/middleware"
 	"log"
 	"net/http"
 )
